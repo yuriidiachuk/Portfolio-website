@@ -89,7 +89,6 @@ const WorkSlider = () => {
                         width={500}
                         height={300}
                         alt="image"
-                        key={index}
                       />
 
                       <div className="absolute inset-0 bg-gradient-to-l from-transparent via-[#0bcf70] to-[#1CD4D4] opacity-0 group-hover:opacity-80 transition-all duration-700"></div>
