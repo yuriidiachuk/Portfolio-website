@@ -6,10 +6,10 @@ import { motion } from "framer-motion";
 import { fadeIn } from "../../variants";
 const Services = () => {
   return (
-    <div className="h-full  py-36 flex items-center">
+    <div className="flex items-center h-full py-36">
       <Circles />
       <div className="container mx-auto">
-        <div className="flex lg:mt-10 xl:mt-60 flex-col lg:flex-row gap-x-8 ">
+        <div className="flex flex-col lg:mt-10 xl:mt-60 lg:flex-row gap-x-8 ">
           <div className="text-center  flex flex-col lg:w-[30vw] md:text-left mb-4 lg:mb-0">
             <motion.h2
               variants={fadeIn("up", 0.2)}
@@ -27,10 +27,10 @@ const Services = () => {
               exit="hidden"
               className="mb-4 max-w-[400px] mx-auto md:mx-0"
             >
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officia
-              fugiat sint hic possimus laudantium, consequuntur recusandae
-              illum, maiores aliquam iure numquam corporis quae? Placeat ipsam
-              nesciunt harum similique doloremque officiis.
+              I specialize in bringing ideas to life. When you share your vision
+              for a business, I create a fully developed product from scratch,
+              ensuring you leave with a ready-to-use solution that supports your
+              goals.
             </motion.p>
           </div>
           <motion.div

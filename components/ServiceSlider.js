@@ -27,30 +27,30 @@ import {
 
 // data
 const serviceData = [
-  {
-    icon: <RxCrop />,
-    title: "Branding",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-  },
+  // {
+  //   icon: <RxCrop />,
+  //   title: "Branding",
+  //   description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+  // },
   {
     icon: <RxPencil2 />,
     title: "Design",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    description: "Creating UX/UI, responsive web design.",
   },
   {
     icon: <RxDesktop />,
     title: "Development",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    description: "Landing page, e commerce, SPA.",
   },
-  {
-    icon: <RxReader />,
-    title: "Copywriting",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-  },
+  // {
+  //   icon: <RxReader />,
+  //   title: "Copywriting",
+  //   description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+  // },
   {
     icon: <RxRocket />,
     title: "SEO",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    description: "Help users find your site by optimizing it.",
   },
 ];
 
@@ -82,18 +82,15 @@ const ServiceSlider = () => {
             sm:flex-col gap-x-6 sm:gap-x-0 group cursor-pointer hover:bg-[rgba(122,115,142,0.15)]
             transition-all duration-300 "
             >
-              <div className="text-accent text-3xl mb-4">{item.icon}</div>
+              <div className="mb-4 text-3xl text-accent">{item.icon}</div>
               <div>
                 <div className="mb-2 text-lg">{item.title}</div>
                 <p className="max-w-[350px] leading-normal">
                   {item.description}
                 </p>
               </div>
-              <div className="text-3xl mt-5">
-                <RxArrowTopRight
-                  className="group-hover:rotate-45 group-hover:text-accent 
-                transition-all duration-300"
-                />
+              <div className="mt-5 text-3xl">
+                <RxArrowTopRight className="transition-all duration-300 group-hover:rotate-45 group-hover:text-accent" />
               </div>
             </div>
           </SwiperSlide>

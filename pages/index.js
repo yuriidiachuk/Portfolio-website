@@ -9,7 +9,7 @@ const Home = () => {
   return (
     <div className="h-full">
       <div className="w-full h-full ">
-        <div className="container flex flex-col justify-center h-full pt-40 mx-auto text-center  xl:pt-80 lg:text-left">
+        <div className="container flex flex-col justify-center h-full pt-40 mx-auto text-center xl:pt-80 lg:text-left">
           <motion.h1
             variants={fadeIn("down", 0.2)}
             initial="hidden"
@@ -27,9 +27,11 @@ const Home = () => {
             exit="hidden"
             className="max-w-sm mx-auto mb-10 lg:max-w-xl lg:mx-0 lg:mb-16"
           >
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus magni
-            nesciunt est debitis dolore impedit necessitatibus a laudantium sit
-            sapiente fuga, nulla quaerat ipsam, nostrum.
+            Welcome! i&apos;m Yurii, a professional web developer with a knack
+            for crafting visually stunning and highly functional websites.
+            Combining creativity and technical expertise, i transform your
+            vision into digital masterpiece that excels in both appearance and
+            performance
           </motion.p>
           <div className="relative z-20 flex justify-center lg:hidden">
             <ProjectBtn />

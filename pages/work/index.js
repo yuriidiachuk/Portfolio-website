@@ -27,10 +27,11 @@ const Work = () => {
               exit="hidden"
               className="mb-4 max-w-[400px] mx-auto md:mx-0"
             >
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officia
-              fugiat sint hic possimus laudantium, consequuntur recusandae
-              illum, maiores aliquam iure numquam corporis quae? Placeat ipsam
-              nesciunt harum similique doloremque officiis.
+              As a developer, i have worked with various of projects including
+              Single Page Applications, E Commerce and Landing pages. In my
+              portfolio you can find food delivery website and web app,
+              searching recipe app, travelling app, app for reservation
+              appartement and many other.
             </motion.p>
           </div>
           <motion.div
