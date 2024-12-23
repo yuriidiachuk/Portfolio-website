@@ -20,19 +20,29 @@ const aboutData = [
       {
         title: "Web Development",
         icons: [
+          // eslint-disable-next-line react/jsx-key
           <FaHtml5 />,
+          // eslint-disable-next-line react/jsx-key
           <FaCss3 />,
+          // eslint-disable-next-line react/jsx-key
           <FaJs />,
+          // eslint-disable-next-line react/jsx-key
           <FaReact />,
+          // eslint-disable-next-line react/jsx-key
           <SiNextdotjs />,
+          // eslint-disable-next-line react/jsx-key
           <SiTailwindcss />,
+          // eslint-disable-next-line react/jsx-key
           <SiFramer />,
+          // eslint-disable-next-line react/jsx-key
           <SiRedux />,
+          // eslint-disable-next-line react/jsx-key
           <SiGit />,
         ],
       },
       {
         title: "UI/UX Design",
+        // eslint-disable-next-line react/jsx-key
         icons: [<FaFigma />, <SiAdobexd />, <SiAdobephotoshop />],
       },
     ],
