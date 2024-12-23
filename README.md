@@ -1,1 +1,1 @@
-# ethan-portfolio-starter
+# Next.js, Tailwind CSS, Framer motion
