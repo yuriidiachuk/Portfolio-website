@@ -29,7 +29,8 @@ export const workSlider = {
       images: [
         {
           title: "title",
-          path: "/thumb4.jpg",
+          path: "/omnifood.png",
+          link: "https://omnifood-yuriidiachuk.netlify.app/",
         },
         {
           title: "title",
@@ -37,7 +38,8 @@ export const workSlider = {
         },
         {
           title: "title",
-          path: "/thumb2.jpg",
+          path: "/cinematic.png",
+          link: "https://cinematic-yurii-diachuk.netlify.app/",
         },
         {
           title: "title",
